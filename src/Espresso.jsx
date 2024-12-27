@@ -16,7 +16,7 @@ export function Espresso() {
  
      // Load 3D model
      const loader = new GLTFLoader();
-     loader.load('path/to/your/model.glb', (gltf) => {
+     loader.load('/../docs/latte.glb', (gltf) => {
        scene.add(gltf.scene);
      }, undefined, (error) => {
        console.error('An error occurred while loading the model:', error);
@@ -30,6 +30,7 @@ export function Espresso() {
        requestAnimationFrame(animate);
        renderer.render(scene, camera);
      }
+
      animate();
 
 }

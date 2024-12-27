@@ -2,6 +2,7 @@
 import Offering from './Offering'
 import './Offering.css'
 import AboutMe from './AboutMe'
+import { Espresso } from './Espresso'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
       <Offering/>
       <AboutMe/>
+      <Espresso/>
     </>
     
   )
