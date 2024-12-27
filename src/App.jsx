@@ -2,7 +2,7 @@
 import Offering from './Offering'
 import './Offering.css'
 import AboutMe from './AboutMe'
-import { Espresso } from './Espresso'
+import Espresso from './Espresso'
 
 
 function App() {
