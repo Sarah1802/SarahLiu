@@ -1,0 +1,44 @@
+/* Set the container to split the screen */
+.container {
+    display: flex;
+    height: 100vh; /* Full screen height */
+  }
+  
+  /* Define the two halves */
+  .half {
+    flex: 1; /* Each half takes up 50% of the width */
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* border: 1px solid #ddd; Optional for visualization */
+  }
+
+  .links-bio {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Styling for components */
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+  }
+  
+  .component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  

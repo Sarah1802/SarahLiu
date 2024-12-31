@@ -1,0 +1,7 @@
+.threeDContainer {
+    width: 50vw; /* Half of the viewport width */
+    height: 100vh; /* Full viewport height */
+    float: right; /* Align it to the left half */
+    /* border: 1px solid #ddd; Optional for visualization */
+  }
+  

@@ -1,0 +1,26 @@
+
+
+button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+img {
+    height: 7vh;
+    transition: transform 0.3s ease; /* Smooth scaling animation */
+}
+
+button:hover img {
+    transform: scale(1.1); /* Scale the image without affecting layout */
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.cv-btn {
+    border: 1px solid black;
+    padding: 4vh 4vh;
+    border-radius: 14vh;
+    text-emphasis: 10;
+}
